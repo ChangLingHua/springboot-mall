@@ -1,17 +1,24 @@
 package com.hua.springbootmall.service.impl;
 
-import com.hua.springbootmall.dao.impl.ProductDao;
+import com.hua.springbootmall.dao.ProductDao;
 import com.hua.springbootmall.dto.ProductRequest;
 import com.hua.springbootmall.model.Product;
 import com.hua.springbootmall.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
 public class ProductServiceImpl implements ProductService {
 
     @Autowired
     private ProductDao productDao;
+
+    @Override
+    public List<Product> getProducts() {
+        return productDao.getProducts();
+    }
 
     @Override
     public Product getProductById(Integer productId) {

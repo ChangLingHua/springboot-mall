@@ -1,10 +1,14 @@
-package com.hua.springbootmall.dao.impl;
+package com.hua.springbootmall.dao;
 
 
 import com.hua.springbootmall.dto.ProductRequest;
 import com.hua.springbootmall.model.Product;
 
+import java.util.List;
+
 public interface ProductDao {
+
+    List<Product> getProducts();
 
     Product getProductById(Integer productId);
 
