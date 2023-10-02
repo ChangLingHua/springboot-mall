@@ -1,6 +1,5 @@
 package com.hua.springbootmall.service.impl;
 
-import com.hua.springbootmall.constant.ProductCategory;
 import com.hua.springbootmall.dao.ProductDao;
 import com.hua.springbootmall.dto.ProductQueryParams;
 import com.hua.springbootmall.dto.ProductRequest;
