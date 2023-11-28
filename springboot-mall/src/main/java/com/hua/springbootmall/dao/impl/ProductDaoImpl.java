@@ -4,7 +4,7 @@ import com.hua.springbootmall.dao.ProductDao;
 import com.hua.springbootmall.dto.ProductQueryParams;
 import com.hua.springbootmall.dto.ProductRequest;
 import com.hua.springbootmall.model.Product;
-import com.hua.springbootmall.rawmapper.ProductRowMapper;
+import com.hua.springbootmall.rowmapper.ProductRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;

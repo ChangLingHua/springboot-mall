@@ -1,4 +1,4 @@
-package com.hua.springbootmall.rawmapper;
+package com.hua.springbootmall.rowmapper;
 
 import com.hua.springbootmall.constant.ProductCategory;
 import com.hua.springbootmall.model.Product;
